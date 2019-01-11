@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Run time Retry Test Suite">
+
+<listeners>
+<listener class-name="com.Practise.Selenium.Utility.AnnotTransformer"></listener>
+
+</listeners>
+<test name="IAnnotataion Taranformer Retry Test">
+<classes>
+<class name="com.Practise.TestNG.RetryLogic"></class>
+</classes>
+
+</test>
+</suite>
